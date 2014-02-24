@@ -21,7 +21,7 @@
         <td><%= item.title %></td>
         <td><%= item.desc %></td>
         <td><%= item.price %></td>
-        <td><%= image_tag item.image_url(:thumb) if item.image? %></td>
+        <td><%= image_tag item.image_url(:market) if item.image? %></td>
         <td><%= item.condition %></td>
         <td><%= item.user.email %></td>
         <td><%= link_to 'Show', item %></td>

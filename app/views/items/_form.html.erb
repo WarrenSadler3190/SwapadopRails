@@ -29,7 +29,7 @@
   </div>
   <div class="field">
     <%= f.label :condition %><br>
-    <%= f.text_field :condition %>
+    <%= select_tag(:condition, options_for_select(['poor','fair','excellent'])) %>
   </div>
   <div class="field">
     <%= f.label :user_id %><br>
