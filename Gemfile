@@ -50,6 +50,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "mini_magick"
 gem 'rmagick'
 gem 'carrierwave'
 
