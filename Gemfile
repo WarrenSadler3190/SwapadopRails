@@ -50,6 +50,9 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'rmagick'
+gem 'carrierwave'
+
 group 'development' do 
   gem 'rspec-rails'
   gem 'fabrication'

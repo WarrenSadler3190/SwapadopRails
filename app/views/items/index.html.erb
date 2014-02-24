@@ -6,6 +6,7 @@
       <th>Title</th>
       <th>Desc</th>
       <th>Price</th>
+      <th>Image</th>
       <th>Condition</th>
       <th>User</th>
       <th></th>
@@ -20,6 +21,7 @@
         <td><%= item.title %></td>
         <td><%= item.desc %></td>
         <td><%= item.price %></td>
+        <td><%= image_tag item.image_url(:thumb) if item.image? %></td>
         <td><%= item.condition %></td>
         <td><%= item.user.email %></td>
         <td><%= link_to 'Show', item %></td>
