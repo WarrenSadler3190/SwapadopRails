@@ -1,4 +1,5 @@
 SwapadopProj2::Application.routes.draw do
+  get "swapadopolis/index"
   resources :items
 
   devise_for :users
