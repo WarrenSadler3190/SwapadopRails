@@ -1,5 +1,10 @@
+$swapadop_blue: #29ABE2;
+$swapadop_yellow: #e2bd29;
+$swapadop_green: #79ED56;
+
+
 body {
-  background-color: #fff;
+  background-color: $swapadop_green;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;

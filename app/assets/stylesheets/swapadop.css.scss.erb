@@ -1,0 +1,67 @@
+// Place all the styles related to the swapadop controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$swapadop_blue: #29ABE2;
+$swapadop_yellow: #e2bd29;
+$swapadop_green: #79ED56;
+
+
+
+@import "font-awesome";
+
+.main{
+  background-image: url("<%= asset_path('swapabackwYeti.png')%>");
+  height: 470px;
+  image-size:cover;
+}
+
+
+#main_logo{
+  position: relative;
+  margin:20px 0px 0px 0px;
+  height: 120px;
+}
+
+#logo{
+  height:25px;
+}
+
+.search{
+  width: 200px;
+  .icon{
+    position: relative;
+    left: 150px;
+    color:white;
+  }
+}
+
+.subheader{
+  color:#fff;
+  font-size: 14px;
+}
+
+.alert-box{
+  position:absolute;
+  z-index: 10;
+  width:100%;
+}
+
+.section-1{
+  padding: 120px;
+  background-color:$swapadop_blue;
+  height: 400px;
+  p{
+    color:white;
+  }
+}
+
+.section-2{
+  background-color:$swapadop_yellow;
+  height: 400px;
+}
+
+.footer{
+  background-color:$swapadop_green;
+  height: 300px;
+}

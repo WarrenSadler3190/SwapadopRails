@@ -1,8 +1,57 @@
-  <div class="row">
+  <div class="row main">
 
     <div class="small-6 columns">    
-      <h1>Swapadop</h1>
-      <p class="subheader">Find the value in things</p>
+      <h1><img id="main_logo" src="<%=asset_path('swapadopLogo.png')%>" alt=""></h1>
+      <p class="subheader">Find the hidden value in the things you have.</p>
+      <% unless current_user %>
+      <%=link_to "Sign Up Now", new_user_registration_path, :class=>'button call_to_action small round'%>
+      <% end %>
     </div>  
 
+  </div>
+
+  <div class="row section-1">
+    <div class="small-6 columns blurb">
+      <h3>
+        <div class="search"><%=fa_icon "search-plus" ,:class=>'icon'%></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id, quidem provident eveniet maxime consequatur voluptatem perspiciatin</p>
+      </h3>
+    </div>
+    <div class="small-6 columns blurb one">
+      <h3>
+        <div class="search"><%=fa_icon "search-plus" ,:class=>'icon'%></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id, quidem provident eveniet maxime consequatur voluptatem perspiciatin</p>
+      </h3>
+    </div>
+  </div>
+
+  <div class="row section-2">
+    <div class="small-12 columns">
+      <img src="" alt="">
+      <h2></h2>
+    </div>
+  </div>
+
+  <div class="row footer">
+    <div class="small-4 columns">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="small-4 columns">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="small-4 columns">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
   </div>
