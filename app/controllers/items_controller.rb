@@ -1,5 +1,21 @@
+require 'semantics3'
+require 'oauth-rails'
+
 class ItemsController < ApplicationController
   before_action :authenticate_user!, :set_item, only: [:show, :edit, :update, :destroy]
+  # GET /items/search
+  def search
+    API_KEY = 'SEM3822725EA1A9833FE63D5B25D18EA7BA2'
+    API_SECRET = 'ZmQ0YTdjYjgyZjc5ZDg2NmM2NzUzOWQ3YjZkOWYyZjA'
+    sem3 = Semantics3::Products.new(API_KEY,API_SECRET)
+
+    sem3.products_field( "cat_id", 4992 )
+    sem3.products_field( "brand", "Toshiba" )
+    productsHash = sem3.get_products
+    @query = "Results of query:\n",productsHash.to_json
+
+  end  
+
   # GET /items
   # GET /items.json
   def index

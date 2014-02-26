@@ -12,8 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require move.min
+//= require imagescroll.min
+//= require image_scroller
+//= require animations
 //= require foundation
 //= require turbolinks
 //= require_tree .
 
+
 $(function(){ $(document).foundation(); });
+
+

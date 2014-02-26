@@ -50,6 +50,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "oauth-plugin"
+gem 'semantics3'
+
+
 gem "mini_magick"
 gem 'rmagick'
 gem 'carrierwave'
