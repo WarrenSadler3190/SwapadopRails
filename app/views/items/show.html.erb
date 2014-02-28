@@ -1,16 +1,23 @@
 <p id="notice"><%= notice %></p>
 
-<div class="row">
-  <div class="small-4 columns"><%= image_tag @item.image_url(:market) if @item.image? %></div>
+<div class="row item_show">
+
+  <div class="small-4 columns"><%= image_tag @item.image_url(:market) if @item.image? %>
+  </div>
+
   <div class="small-8 columns">
     <h2><%= @item.title%></h2>
-    <p><%= @item.price%></p>
+    <p><%= format_price(@item.price) %></p>
     <p><%= @item.condition %></p>
     <p><%= @item.user.email %></p>
   </div>
+
 </div>
-<div class="row">
-  <div class="small-12 columns"> <%=@item.desc%></div>
+
+<div class="row item_show">
+  <div class="small-12 columns"> 
+  <h4>Description:</h4>
+  <%=@item.desc%></div>
 </div>
 
 <!-- <p>

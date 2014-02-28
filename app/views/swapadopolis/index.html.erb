@@ -1,8 +1,7 @@
 <div class="row">
   
   <div class="small-12 columns">
-    <h1>Swapadopolis#index</h1>
-    <p>Find me in app/views/swapadopolis/index.html.erb</p>
+    <h1 id="swapadopolis">Swapadopolis</h1>
   </div>
 </div>
 
@@ -13,12 +12,12 @@
     <% for item in @items %>
       <div class="item">
         <div class="item_image" style="background-image:url('<%=item.image_url%>');background-size:cover;">
-          <h3 class="title"><%=item.title%></h3>
+          <h3 class="title"> <%=item.title%><%=fa_icon "chevron-circle-right", :class=>'icon'%></h3>
         </div>
         <p>Desc:<%=item.desc%></p>
-        <p>Price:<%=item.price%></p>
-        <span>Owner: <%= link_to item.user.email%></span> | 
-        <%= link_to 'Show', item %>
+        <p>Price: <%=format_price(item.price)%></p>
+        <span>Owner: <%= link_to item.user.email, :class=>'pill' %></span> | 
+        <%= link_to('Show',item) %>
       </div>
     <% end %>
 

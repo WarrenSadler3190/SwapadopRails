@@ -27,14 +27,17 @@
               <li class="has-dropdown">
                 <a href="#"><%=fa_icon "heart" %> <%= current_user.email %></a>
                 <ul class="dropdown">
+                  <li><%=link_to 'My Items', items_path %></li>
+                  <li><%=link_to 'Upload Item', new_item_path %></li>
                   <li><%=link_to 'Edit profile', edit_user_registration_path %></li>
-                  <li><%=link_to 'Logout', destroy_user_session_path, method: :delete%></li></ul>
+                  <li><%=link_to 'Logout', destroy_user_session_path, method: :delete%></li>
+                </ul>
               </li>
             <% else %>
               <li><%=link_to "Sign up", new_user_registration_path %></li>
               <li><%=link_to "Login", new_user_session_path %></li>
             <% end %>   
-
+            <li><%=link_to "Swapadopolis", swapadopolis_index_path%></li>
             <li class="has-form">
                 <div class="row collapse">
                   <div class="large-8 small-9 columns">

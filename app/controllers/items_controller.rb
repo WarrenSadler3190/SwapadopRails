@@ -1,13 +1,12 @@
 require 'semantics3'
-require 'oauth-rails'
+require 'oauth-plugin'
 
 class ItemsController < ApplicationController
   before_action :authenticate_user!, :set_item, only: [:show, :edit, :update, :destroy]
   # GET /items/search
   def search
-    API_KEY = 'SEM3822725EA1A9833FE63D5B25D18EA7BA2'
-    API_SECRET = 'ZmQ0YTdjYjgyZjc5ZDg2NmM2NzUzOWQ3YjZkOWYyZjA'
-    sem3 = Semantics3::Products.new(API_KEY,API_SECRET)
+
+    sem3 = Semantics3::Products.new('SEM3822725EA1A9833FE63D5B25D18EA7BA2','ZmQ0YTdjYjgyZjc5ZDg2NmM2NzUzOWQ3YjZkOWYyZjA')
 
     sem3.products_field( "cat_id", 4992 )
     sem3.products_field( "brand", "Toshiba" )
@@ -19,7 +18,7 @@ class ItemsController < ApplicationController
   # GET /items
   # GET /items.json
   def index
-    @items = Item.all
+    @items = current_user.items
   end
 
   # GET /items/1
@@ -29,7 +28,8 @@ class ItemsController < ApplicationController
 
   # GET /items/new
   def new
-    @item = Item.new
+    # @item = Item.new
+    @item = current_user.items.new
   end
 
   # GET /items/1/edit
@@ -39,7 +39,8 @@ class ItemsController < ApplicationController
   # POST /items
   # POST /items.json
   def create
-    @item = Item.new(item_params)
+    # @item = Item.new(item_params)
+    @item = current_user.items.build(item_params)
 
     respond_to do |format|
       if @item.save
