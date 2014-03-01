@@ -14,13 +14,19 @@
 //= require jquery_ujs
 //= require move.min
 //= require imagescroll.min
+//= require freewall.min
 //= require image_scroller
 //= require animations
 //= require foundation
 //= require turbolinks
 //= require_tree .
 
+$(document).ready(function(){
+  var wall = new freewall('#item_box');
+  wall.fitWidth();
+  wall.reset({animate:true});
+});
+$(function(){ $(document).foundation();});
 
-$(function(){ $(document).foundation(); });
 
 

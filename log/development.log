@@ -87130,3 +87130,1396 @@ Completed 200 OK in 459ms (Views: 433.0ms | ActiveRecord: 17.6ms)
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-27 22:28:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-27 22:30:23 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (5.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SwapadopController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered swapadop/index.html.erb within layouts/application (99.1ms)
+Completed 200 OK in 1041ms (Views: 967.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-27 22:30:24 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-27 22:30:24 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-27 22:30:25 -0600
+
+
+Started GET "/assets/swapabackwYeti.png" for 127.0.0.1 at 2014-02-27 22:30:26 -0600
+
+
+Started GET "/assets/coding.jpg" for 127.0.0.1 at 2014-02-27 22:30:26 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:26 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:26 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-27 22:30:26 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:26 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:28 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:28 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:28 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-27 22:30:28 -0600
+
+
+Started GET "/items" for 127.0.0.1 at 2014-02-28 16:10:30 -0600
+Processing by ItemsController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mItem Load (12.6ms)[0m  SELECT "items".* FROM "items" WHERE "items"."user_id" = ?  [["user_id", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered items/index.html.erb within layouts/application (93.8ms)
+Completed 200 OK in 588ms (Views: 453.9ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:31 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:32 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 16:10:36 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (4.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (69.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 520ms (Views: 509.9ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:37 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 16:10:38 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:38 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:38 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 16:10:38 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:39 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:40 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:40 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:40 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:40 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:40 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 16:10:41 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 16:26:16 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[35mItem Load (1.1ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (90.0ms)
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 500 Internal Server Error in 2549ms
+
+ActionView::Template::Error ([stdin]:5:19: error: reserved word "function"
+$(document).ready(function(){
+                  ^
+  (in /home/warren/SwapadopRails/app/assets/javascripts/swapadopolis.js.coffee)):
+    65:     <% end %>
+    66:     <%= yield %>
+    67: 
+    68:     <%= javascript_include_tag "application" %>
+    69:   </div>
+    70:   </body>
+    71: </html>
+  app/views/layouts/application.html.erb:68:in `_app_views_layouts_application_html_erb___916262026_81032720'
+
+
+  Rendered /home/warren/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.4ms)
+  Rendered /home/warren/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+  Rendered /home/warren/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (71.9ms)
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 16:26:47 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (4.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (3.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (50.1ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1533ms (Views: 1520.8ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 16:26:49 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:51 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:52 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:52 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 16:26:53 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 16:28:03 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[35mItem Load (4.5ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (2.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (34.0ms)
+  [1m[35mUser Load (7.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 790ms (Views: 772.2ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:05 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:06 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:07 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 16:28:42 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (15.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (6.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (47.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 602ms (Views: 577.3ms | ActiveRecord: 23.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:43 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 16:28:44 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:45 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:45 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:45 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 16:28:46 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 16:29:06 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (8.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (109.9ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 947ms (Views: 935.4ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 16:29:08 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:09 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 16:29:10 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 19:34:12 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[36mItem Load (36.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  [1m[35mUser Load (14.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (144.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1243ms (Views: 1185.2ms | ActiveRecord: 52.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:13 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:13 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:14 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:15 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:15 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:15 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:15 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:15 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:17 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:17 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:17 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:17 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 19:34:27 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (5.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (8.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (65.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 600ms (Views: 584.4ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:28 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:29 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:29 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:29 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 19:34:29 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:29 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 19:34:29 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:31 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:31 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:31 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:31 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:34:31 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 19:36:17 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (45.2ms)
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 819ms (Views: 815.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 19:36:19 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:21 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:22 -0600
+
+
+Started GET "/swapadopolis/index" for 127.0.0.1 at 2014-02-28 19:36:26 -0600
+Processing by SwapadopolisController#index as HTML
+  [1m[35mItem Load (2.4ms)[0m  SELECT "items".* FROM "items"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  Rendered swapadopolis/index.html.erb within layouts/application (47.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 579ms (Views: 573.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/swapadop.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/swapadopolis.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-28 19:36:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/move.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/imagescroll.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/freewall.min.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/image_scroller.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:28 -0600
+
+
+Started GET "/assets/swapadopLogo.png" for 127.0.0.1 at 2014-02-28 19:36:29 -0600
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:30 -0600
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-02-28 19:36:30 -0600
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:31 -0600
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/swapadop.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/swapadopolis.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-28 19:36:32 -0600
