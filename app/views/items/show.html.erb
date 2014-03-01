@@ -9,7 +9,7 @@
     <h2><%= @item.title%></h2>
     <p><%= format_price(@item.price) %></p>
     <p><%= @item.condition %></p>
-    <p><%= @item.user.email %></p>
+    <p><%= link_to 'Make Offer', {:controller=>'offers', :action=>'send_offer', :item=>@item.id, :user=>current_user.id }%> </p>
   </div>
 
 </div>

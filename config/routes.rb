@@ -1,8 +1,11 @@
 SwapadopProj2::Application.routes.draw do
+  get "offers/send_offer"
   get "swapadopolis/index"
   resources :items do
     get "search"
   end
+
+  
 
   devise_for :users
   root :to => "swapadop#index"
