@@ -62,15 +62,15 @@
 #   }
 # }
 #
-OAUTH_CREDENTIALS={
+# OAUTH_CREDENTIALS={
 
-  :semantics3=>{
-    :key=>"SEM3822725EA1A9833FE63D5B25D18EA7BA2",
-    :secret=>"ZmQ0YTdjYjgyZjc5ZDg2NmM2NzUzOWQ3YjZkOWYyZjA",
-    :options=>{
-     :site=>"http://api.semantics3.com/v1/"
-    }
-  }
-} unless defined? OAUTH_CREDENTIALS
+#   :semantics3=>{
+#     :key=>"SEM3822725EA1A9833FE63D5B25D18EA7BA2",
+#     :secret=>"ZmQ0YTdjYjgyZjc5ZDg2NmM2NzUzOWQ3YjZkOWYyZjA",
+#     :options=>{
+#      :site=>"http://api.semantics3.com/v1/"
+#     }
+#   }
+# } unless defined? OAUTH_CREDENTIALS
 
-load 'oauth/models/consumers/service_loader.rb'
+# load 'oauth/models/consumers/service_loader.rb'

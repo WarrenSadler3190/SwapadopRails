@@ -53,6 +53,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'omniauth'
 gem "oauth-plugin"
 gem 'semantics3'
 
