@@ -1,5 +1,8 @@
 class SwapadopolisController < ApplicationController
   def index
-    @items = Item.all
+    @search = Item.search do
+      fulltext params[:search]
+    end
+    @items = @search.results
   end
 end

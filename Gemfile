@@ -6,6 +6,8 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# Use sunspot_rails for full text search
+gem 'sunspot_rails' 
 
 gem "pry"
 
@@ -63,6 +65,7 @@ gem 'rmagick'
 gem 'carrierwave'
 
 group 'development' do 
+  gem 'sunspot_solr'
   gem 'rspec-rails'
   gem 'fabrication'
   gem 'capybara'
