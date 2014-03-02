@@ -24,7 +24,14 @@
 $(document).ready(function(){
   var wall = new freewall('#item_box');
   wall.fitWidth();
-  wall.reset({animate:true});
+  wall.reset({
+          selector: '.item',
+          animate: true,
+          delay: 30,
+          onResize: function() {
+            wall.refresh($(window).width(), $(window).height());
+          }
+        });
 });
 $(function(){ $(document).foundation();});
 

@@ -11,11 +11,12 @@
 
     <% for item in @items %>
       <div class="item">
+
         <div class="item_image" style="background-image:url('<%=item.image_url%>');background-size:cover;">
           <h3 class="title"> <%=item.title%><%=fa_icon "chevron-circle-right", :class=>'icon'%></h3>
         </div>
-        <p>Desc:<%=item.desc%></p>
-        <p>Price: <%=format_price(item.price)%></p>
+        <span>Desc:<%=item.desc%></span><br>
+        <span>Price: <%=format_price(item.price)%></span><br>
         <span>Owner: <%= link_to item.user.email, :class=>'pill' %></span> | 
         <%= link_to('Show',item) %>
       </div>
