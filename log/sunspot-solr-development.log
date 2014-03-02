@@ -384,3 +384,7 @@ Mar 02, 2014 1:35:53 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Item&rows=30} hits=5 status=0 QTime=1 
 Mar 02, 2014 1:36:04 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=thang&qf=title_text&wt=ruby&fq=type:Item&rows=30&defType=edismax} hits=3 status=0 QTime=4 
+Mar 02, 2014 1:40:59 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Item&rows=30} hits=5 status=0 QTime=1 
+Mar 02, 2014 1:46:56 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=thang&qf=title_text&wt=ruby&fq=type:Item&rows=30&defType=edismax} hits=3 status=0 QTime=29 
