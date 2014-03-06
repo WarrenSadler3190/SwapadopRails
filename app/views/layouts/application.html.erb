@@ -25,7 +25,11 @@
           <ul class="right">
             <% if user_signed_in? %>
               <li class="has-dropdown">
-                <a href="#"><%=fa_icon "heart" %> <%= current_user.email %></a>
+                <% if current_user.image %>
+                  <a href="#">Hello <%= current_user.name %> <img src="<%=current_user.image%>" class="user-image" alt=""></a>
+                <% else %>
+                  <a href="#"><%=fa_icon "heart" %> <%= current_user.email %></a>
+                <% end %>
                 <ul class="dropdown">
                   <li><%=link_to 'My Items', items_path %></li>
                   <li><%=link_to 'Upload Item', new_item_path %></li>
@@ -34,6 +38,7 @@
                 </ul>
               </li>
             <% else %>
+              <li><%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %></li>
               <li><%=link_to "Sign up", new_user_registration_path %></li>
               <li><%=link_to "Login", new_user_session_path %></li>
             <% end %>   

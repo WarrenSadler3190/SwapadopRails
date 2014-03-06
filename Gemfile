@@ -6,10 +6,16 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# User omniauth-facebook gem
+gem 'omniauth-facebook'
+
 # Use sunspot_rails for full text search
 gem 'sunspot_rails' 
 
 gem "pry"
+
+#Use Twilio 
+gem 'twilio-ruby'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
