@@ -15,7 +15,7 @@ class OffersController < ApplicationController
   @client.account.messages.create(
     :from=> "+16158236067",
     :to=> "+16154954452",
-    :body=> "Hey #{@user.name} wants to trade!"
+    :body=> "Hey #{@user.name} wants to trade! Contact them at #{@user.email}."
   )
 
   UserMailer.offer_trade(@item, @user)
