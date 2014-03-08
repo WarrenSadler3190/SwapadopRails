@@ -6,11 +6,6 @@ class ItemsController < ApplicationController
   # GET /items/search
   def search
     params
-    sem3 = Semantics3::Products.new('SEM3822725EA1A9833FE63D5B25D18EA7BA2','ZmQ0YTdjYjgyZjc5ZDg2NmM2NzUzOWQ3YjZkOWYyZjA')
-    sem3.products_field( "name", params[:q] )
-    productsHash = sem3.get_products
-    @query = "Results of query:\n",productsHash.to_json
-    binding.pry
 
   end  
 

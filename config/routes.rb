@@ -1,12 +1,11 @@
 SwapadopProj2::Application.routes.draw do
+  get "suggestion/index"
   get "offers/send_offer"
   get "swapadopolis/index"
   resources :items do
     get "search"
   end
-
-  
-
+  resources :suggestions, :only => [:index]
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   root :to => "swapadop#index"
   devise_scope :user do

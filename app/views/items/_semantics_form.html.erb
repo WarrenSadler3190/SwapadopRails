@@ -1,8 +1,4 @@
-<div class='row'>
+
 <div class="small-6 columns">
-<%= form_tag("items/search", method: "get") do %>
-  <%= label_tag(:q, "Search for:") %>
-  <%= text_field_tag(:q) %>
-  <%= submit_tag("Search") %>
-<% end %>
+  <%= link_to "Find Suggestion", suggestion_index_path(:search => ''), :id=>"suggestion_link", :remote=>true%>
 </div>
