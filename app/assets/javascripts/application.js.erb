@@ -21,9 +21,14 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function(){
+$(document).ready(function(){  //BEGIN READY
+
+  // FREEWALL   
+
   var wall = new freewall('#item_box');
+
   wall.fitWidth();
+
   wall.reset({
           selector: '.item',
           animate: true,
@@ -32,11 +37,38 @@ $(document).ready(function(){
             wall.refresh($(window).width(), $(window).height());
           }
         });
+  
+  // END FREEWALL
+
+  // SUGGESTION 
+
+  $('#suggestion_link').on('click',function(){
+    if($('#item_title').val() === ""){
+      alert('Must Input Title First');
+      $('#item_title').addClass('invalid').focus();
+    }
+  });
+
+  $('#suggestion').on('click', $('.close_suggestion') ,function(){
+    $('#item_price').val($('.price').text());
+    $('.suggested_price').fadeOut('slow').remove();
+  });
+
+  var link = $('#suggestion_link').attr("href");
+  $("#item_title").on("focus",function(){
+    $('#suggestion_link').attr("href",link);
+  });
+
   $('#item_title').on('blur',function(){
     $("#suggestion_link").attr("href", $("#suggestion_link").attr("href") + $("#item_title").val() );
     console.log($("#suggestion_link").attr("href") + $("#item_title").val());
   });
-});
+
+  // END SUGGESTION
+
+}); //END READY
+
+
 
 $(function(){ $(document).foundation();});
 

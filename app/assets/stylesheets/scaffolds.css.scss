@@ -4,7 +4,7 @@ $swapadop_green: #79ED56;
 
 
 body {
-  // background-color: $swapadop_green;
+  background-color: $swapadop_green;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -71,4 +71,13 @@ div {
     font-size: 12px;
     list-style: square;
   }
+}
+
+.suggested_price{
+  margin-right: 10px;
+  background-color:light-green;
+}
+
+.close_suggestion{
+  display:inline-block;
 }
