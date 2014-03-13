@@ -1,16 +1,13 @@
 SwapadopProj2::Application.routes.draw do
-  get "suggestion/index"
   resources :offers, only: [:create]
-  get "swapadopolis", to: "swapadopolis#index"
-  resources :items do
-    get "search"
-  end
   resources :suggestions, :only => [:index]
+  get "swapadopolis", to: "swapadopolis#index"
+  resources :items
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
-  root :to => "swapadop#index"
   devise_scope :user do
    get 'sign_out', :to => 'devise/sessions#destroy', :as => :destroy_facebook_session
   end
+  root "swapadop#index"  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

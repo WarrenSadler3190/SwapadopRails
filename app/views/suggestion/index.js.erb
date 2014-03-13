@@ -1,5 +1,0 @@
-$('#suggestion').empty();
-$("<%= escape_javascript(render 'suggestion')%>").hide().appendTo("#suggestion").fadeIn('slow');
-setTimeout(function(){
-  $('.suggested_price').addClass('animated rubberBand');
-},1000);
