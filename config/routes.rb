@@ -1,7 +1,7 @@
 SwapadopProj2::Application.routes.draw do
   get "suggestion/index"
-  get "offers/send_offer"
-  get "swapadopolis/index"
+  resources :offers, only: [:create]
+  get "swapadopolis", to: "swapadopolis#index"
   resources :items do
     get "search"
   end

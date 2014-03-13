@@ -28,7 +28,7 @@
                 <% if current_user.image %>
                   <a href="#">Hello <%= current_user.name %> <img src="<%=current_user.image%>" class="user-image" alt=""></a>
                 <% else %>
-                  <a href="#"><%=fa_icon "heart" %> <%= current_user.email %></a>
+                  <a href="#"><%=fa_icon "heart" %><%= current_user.email %></a>
                 <% end %>
                 <ul class="dropdown">
                   <li><%=link_to 'My Items', items_path %></li>
@@ -42,10 +42,10 @@
               <li><%=link_to "Sign up", new_user_registration_path %></li>
               <li><%=link_to "Login", new_user_session_path %></li>
             <% end %>   
-            <li><%=link_to "Swapadopolis", swapadopolis_index_path%></li>
+            <li><%=link_to "Swapadopolis", swapadopolis_path%></li>
             <li class="has-form">
                 <div class="row collapse">
-                  <%= form_tag swapadopolis_index_path, :method => :get do%>
+                  <%= form_tag swapadopolis_path, :method => :get do%>
                   <div class="large-8 small-9 columns">
                     <%= text_field_tag :search, params[:search],:class => 'search', :placeholder=> "Find Stuff"%>
                   </div>
