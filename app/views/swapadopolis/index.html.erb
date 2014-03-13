@@ -19,6 +19,7 @@
         <span>Price: <%=format_price(item.price)%></span><br>
         <span>Owner: <%= link_to item.user.email, :class=>'pill' %></span> | 
         <%= link_to('Show',item) %>
+        <p>Offers: <%= item.offers.length %></p>
       </div>
     <% end %>
 

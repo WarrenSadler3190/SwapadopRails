@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$swapadop_blue: #29ABE2;
+$swapadop_yellow: #e2bd29;
+$swapadop_green: #79ED56;
+
 .item_form{
   padding:20px;
   background-color: white;
@@ -21,4 +25,54 @@
   border-radius:2px;
   padding:2px;
   background-color:#bb04EE;
+}
+
+h1#item_header{
+color:#fff;
+font-weight:bold;
+text-shadow:0px 3px 0px rgba(0,0,0,0.5);
+}
+
+#suggestion_link{
+  
+}
+
+
+.item_content_container{
+float:left;
+padding:10px 30px;
+margin: 0px 0px 0px 120px;
+background-color:#fefefe;
+border-bottom:3px solid rgba(255,255,255,0.5);
+width:700px;
+border-radius:0px 100px 100px 0px;
+box-shadow:0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.item_container{
+    background-color:$swapadop_blue;
+    padding:20px 0px 20px 100px;
+    border-radius:100px;
+    box-shadow:0px 5px 0px rgba(0,0,0,0.3);
+}
+
+.item_image_container{
+    background-color:#fff;
+    float:left;
+    height:100px;
+    width:100px;
+    border-radius:100px;
+    margin:10px 0px 0px -50px;
+}
+
+.suggested_price{
+  color:white;
+  font-size: 20px;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-iteration-count: 2;
+}
+
+.clear{
+  clear: both;
 }

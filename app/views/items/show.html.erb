@@ -7,6 +7,7 @@
 
   <div class="small-8 columns">
     <h2><%= @item.title%></h2>
+    <p><%= @item.user.email %></p>
     <p><%= format_price(@item.price) %></p>
     <p><%= @item.condition %></p>
     <p><%= link_to 'Make Offer', {:controller=>'offers', :action=>'send_offer', :item=>@item.id, :user=>current_user.id }%> </p>
@@ -16,9 +17,24 @@
 
 <div class="row item_show">
   <div class="small-12 columns"> 
-  <h4>Description:</h4>
+  <h4 id="offer">Description:</h4>
   <%=@item.desc%></div>
 </div>
+
+<% if @item.offers %>
+  
+  <div class="row">
+    <div class="small-12 columns">
+      <h4>Offers</h4>
+      <ul>
+        <% @item.offers.each do |offer| %>
+          <li>Value:<%= offer.value %> Message:<%= offer.message%> <%if offer.user %> -From: <%= offer.user.email %><%end%></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+<% end %>
 
 <!-- <p>
   <strong>Title:</strong>

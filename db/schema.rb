@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140302165901) do
+ActiveRecord::Schema.define(version: 20140312024532) do
 
   create_table "consumer_tokens", force: true do |t|
     t.integer  "user_id"
@@ -36,6 +36,15 @@ ActiveRecord::Schema.define(version: 20140302165901) do
   end
 
   add_index "items", ["user_id"], name: "index_items_on_user_id"
+
+  create_table "offers", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.binary   "message"
+    t.float    "value"
+    t.integer  "user_id"
+    t.integer  "item_id"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

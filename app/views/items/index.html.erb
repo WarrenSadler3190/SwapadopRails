@@ -1,21 +1,36 @@
-<h1>Listing items</h1>
+<div class="item_main">
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Desc</th>
-      <th>Price</th>
-      <th>Image</th>
-      <th>Condition</th>
-      <th>User</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+  <div class="row">
+    <div class="small-12 columns" id="item_header_container">
+      <% if current_user.name %>
+        <h1 id="item_header"><%= current_user.name %>'s Items</h1>
+      <% else %>
+        <h1 id="item_header">Listing Items</h1>
+      <% end %>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="small-12">
+      <% @items.each do |item|%>
+        <div class="item_container">
+          <div class="item_image_container">
+            <img src="<%=item.image%>" alt="">
+          </div>
+          <div class="item_content_container">
+            <h3><%= item.title %></h3><span><%= item.price%></span>
+            <p><%= item.desc %></p>
+            <span><%= item.condition%></span>
+          </div>
+          <div class="clear"></div>
+        </div>
+      <%end%>
+    </div>
+  </div>
 
-  <tbody>
+</div>
+
+  <!-- <tbody>
     <% @items.each do |item| %>
       <tr>
         <td><%= item.title %></td>
@@ -30,7 +45,7 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+</table> -->
 
 <br>
 

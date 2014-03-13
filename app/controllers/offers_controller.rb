@@ -4,6 +4,13 @@ require 'twilio-ruby'
 
 class OffersController < ApplicationController
   def send_offer
+
+  # @offer = Offer.new
+  # @offer.value = params[:value]
+  # @offer.message = params[:message]
+  # @offer.user = User.find(params[:user])
+  # @offer.item = Item.find(params[:item])
+
   @user = User.find(params[:user])
   @item = Item.find(params[:item])
 
